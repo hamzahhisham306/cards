@@ -17,6 +17,7 @@ img{
     -o-border-radius: 50%;
 }
 .card{
+     padding-top: 150px;
     text-align: center;
 }
 p{
