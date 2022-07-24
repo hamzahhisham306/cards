@@ -3,9 +3,11 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Splash', cursive; 
-       align-items: center;
+    align-items: center;
     background-color: #4D4C7D;
     height: 70vh;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 img{
     border-radius: 50%;
@@ -21,6 +23,7 @@ p{
     width: 500px;
     color:#E9D5CA;
     line-height: 1.8;
+    text-align: center;
 }
 .heart {
     position: fixed;
@@ -30,6 +33,7 @@ p{
     animation: fall 3s linear forwards;
 }
 h2{
+    text-align: center;
     color: #E9D5CA;
 
    
@@ -67,11 +71,9 @@ h2{
    width: 1170px;
    }
    }
-@media(min-width:500px){
-    .container{
-        width: 450px;
-    }
+ @media (max-width:500px){
     p{
-        width: fit-content;
+        width: 300px;
+    
     }
-}
+ }
